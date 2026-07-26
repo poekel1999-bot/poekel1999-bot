@@ -1,79 +1,81 @@
 # Hi, I'm Martin 👋
 
-I am an independent software developer and technical researcher focused on building privacy-first, security-focused systems and exploring new possibilities in software engineering.
+I am an independent software developer and technical researcher focused on building systems where privacy and security are fundamental from the beginning.
 
-My work spans programming-language and compiler development, native applications, operating systems, secure communication, business software, and experimental security architecture.
+My work includes programming language development, compiler engineering, native applications, operating systems, secure communication, business software and experimental security architecture.
 
 ## Current focus
 
 ### Cipher
 
-Cipher is an experimental privacy- and security-focused programming language with an LLVM backend.
+Cipher is an experimental programming language focused on privacy and security, with an LLVM backend that produces native machine code.
 
-The project explores how security, privacy, and safe data handling can be enforced by the language and compiler, rather than depending entirely on developer discipline, external libraries, or runtime checks.
+The project explores how safe data handling, privacy and security can be enforced by the language and compiler instead of depending entirely on developer discipline, external libraries or runtime checks.
 
 Current areas of development include:
 
-* Compile-time information-flow control
+* Information flow control enforced during compilation
 * Tracking and restricting sensitive data
-* Capability-based security
-* Native machine-code generation
-* Fail-closed security behavior
+* Capability based security
+* Native machine code generation
+* Security behaviour that fails safely
 * Cryptographic and runtime safety
 * Secure asynchronous and network operations
-* Memory- and integer-safety hardening
-* Filesystem and path-confinement security
-* Regression testing for security-critical behavior
-* New language-level privacy and security guarantees
+* Memory safety and integer safety improvements
+* Filesystem security and path confinement
+* Regression testing for security critical behaviour
+* New privacy and security guarantees at the language level
 
 ## Security and software research
 
-My work is not limited to AI research. I conduct ongoing technical research into software security, programming-language design, compiler guarantees, cryptographic systems, operating-system architecture, and previously unexplored approaches to privacy and application safety.
+My work is not limited to artificial intelligence research.
+
+I conduct ongoing technical research into software security, programming language design, compiler guarantees, cryptographic systems, operating system architecture and new approaches to privacy and application safety.
 
 This includes:
 
 * Investigating weaknesses in software and system designs
-* Performing repeated security-focused reviews and adversarial audits
-* Designing protections that prevent insecure behavior by construction
-* Exploring security properties that can be enforced at compile time
+* Performing repeated security reviews and adversarial audits
+* Designing protections that prevent unsafe behaviour by construction
+* Exploring security properties that can be enforced during compilation
 * Researching alternatives to conventional permission and trust models
-* Developing new approaches to data ownership, privacy, and controlled information flow
-* Testing whether unusual or ambitious technical ideas can be converted into working systems
-* Revisiting limitations that are normally accepted as unavoidable and searching for stronger solutions
+* Developing new approaches to data ownership, privacy and controlled information flow
+* Testing whether ambitious technical ideas can be converted into working systems
+* Revisiting limitations that are commonly accepted and searching for stronger solutions
 
-The goal is not only to reproduce existing software patterns, but also to investigate what becomes possible when security and privacy are treated as foundational language and system properties.
+The goal is not only to reproduce existing software patterns. I also investigate what becomes possible when privacy and security are treated as foundational properties of languages, applications and operating systems.
 
 ## Other work
 
 Alongside Cipher, I work on projects involving:
 
-* Operating-system development
-* Privacy-focused applications
+* Operating system development
+* Applications focused on privacy
 * Secure communication systems
 * Internal business and workflow software
 * Web and mobile applications
 * File and data protection
-* AI-assisted software engineering
+* Software engineering supported by artificial intelligence
 * Experimental software architecture
 
-## AI safety research
+## Artificial intelligence safety research
 
-One research direction investigates how programming languages, compilers, and automated verification can make software generated or modified by AI coding agents safer.
+One research direction investigates how programming languages, compilers and automated verification can make software created or modified by coding agents safer.
 
-This includes evaluating whether compiler-enforced information-flow control, capability restrictions, and fail-closed rules can detect and prevent security failures in AI-generated software.
+This includes evaluating whether information flow control, capability restrictions and strict compiler rules can detect and prevent security failures in software generated by artificial intelligence.
 
-AI-assisted development is also used as part of a broader review process in which different models inspect architecture, implementations, tests, and security assumptions. Their findings are manually evaluated, tested, and incorporated where technically justified.
+Several advanced models are also used as part of a broader review process. Different models inspect architecture, implementations, tests and security assumptions. Their findings are manually evaluated, tested and incorporated only when they are technically justified.
 
 ## Development approach
 
-I prefer building systems with security, privacy, maintainability, and clear architecture as foundational requirements rather than adding them after development.
+I prefer building systems where security, privacy, maintainability and clear architecture are foundational requirements instead of features added after development.
 
-My projects use iterative implementation, automated testing, adversarial review, repeated security-focused audits, and cross-model technical analysis to identify weaknesses and improve the underlying design.
+My projects use iterative implementation, automated testing, adversarial review, repeated security audits and technical analysis across multiple models to identify weaknesses and improve the underlying design.
 
-I actively explore unconventional possibilities, but treat implementation, testing, reproducibility, and verifiable behavior as the standard for determining whether an idea succeeds.
+I actively explore unconventional possibilities while using implementation, testing, reproducibility and verifiable behaviour to determine whether an idea succeeds.
 
 ## Current status
 
 Public technical documentation and reproducible research material for Cipher are being prepared.
 
-The primary Cipher source repository is currently private while the project architecture, documentation, intellectual property, and public research scope are being reviewed.
+The primary Cipher source repository is currently private while the architecture, documentation, intellectual property and public research scope are being reviewed.
